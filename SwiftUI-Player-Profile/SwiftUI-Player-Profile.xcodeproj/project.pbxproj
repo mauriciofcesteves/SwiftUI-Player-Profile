@@ -48,7 +48,14 @@
 		B676362925C106D800670991 = {
 			isa = PBXGroup;
 			children = (
-				B676363425C106D800670991 /* SwiftUI-Player-Profile */,
+				B676364E25D4B0F400670991 /* Models */,
+				B676364B25D4AFC900670991 /* Profile */,
+				B676363525C106D800670991 /* AppDelegate.swift */,
+				B676363725C106D800670991 /* SceneDelegate.swift */,
+				B676363B25C106DD00670991 /* Assets.xcassets */,
+				B676364025C106DD00670991 /* LaunchScreen.storyboard */,
+				B676364325C106DD00670991 /* Info.plist */,
+				B676363D25C106DD00670991 /* Preview Content */,
 				B676363325C106D800670991 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -59,21 +66,6 @@
 				B676363225C106D800670991 /* SwiftUI-Player-Profile.app */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		B676363425C106D800670991 /* SwiftUI-Player-Profile */ = {
-			isa = PBXGroup;
-			children = (
-				B676364E25D4B0F400670991 /* Models */,
-				B676364B25D4AFC900670991 /* Profile */,
-				B676363525C106D800670991 /* AppDelegate.swift */,
-				B676363725C106D800670991 /* SceneDelegate.swift */,
-				B676363B25C106DD00670991 /* Assets.xcassets */,
-				B676364025C106DD00670991 /* LaunchScreen.storyboard */,
-				B676364325C106DD00670991 /* Info.plist */,
-				B676363D25C106DD00670991 /* Preview Content */,
-			);
-			path = "SwiftUI-Player-Profile";
 			sourceTree = "<group>";
 		};
 		B676363D25C106DD00670991 /* Preview Content */ = {
@@ -317,10 +309,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI-Player-Profile/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = L88649U8C7;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "SwiftUI-Player-Profile/Info.plist";
+				INFOPLIST_FILE = Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -337,10 +329,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI-Player-Profile/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = L88649U8C7;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "SwiftUI-Player-Profile/Info.plist";
+				INFOPLIST_FILE = Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
