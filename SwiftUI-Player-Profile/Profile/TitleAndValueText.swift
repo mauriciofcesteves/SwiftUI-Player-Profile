@@ -8,22 +8,22 @@
 
 import SwiftUI
 
-struct TitleAndValueTextView: View {
+struct TitleAndValueText: View {
     
     var title: String
     var value: String
     
     var body: some View {
         HStack {
-            Text("\(title): ").font(.system(size: 45)).fontWeight(.bold).padding(.leading, 30)
-            Text(value).font(.system(size: 45)).fontWeight(.light).padding(.trailing, 30)
+            Text("\(title): ").font(.system(size: 30)).fontWeight(.bold).padding(.leading, 30)
+            Text(value).font(.system(size: 30)).fontWeight(.light).padding(.trailing, 30)
             Spacer()
         }
     }
 }
 
-struct TitleAndValueTextView_Previews: PreviewProvider {
+struct TitleAndValueText_Previews: PreviewProvider {
     static var previews: some View {
-        TitleAndValueTextView(title: "Title", value: "Value")
+        TitleAndValueText(title: "Title", value: "Value")
     }
 }

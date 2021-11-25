@@ -9,29 +9,29 @@
 /* Begin PBXBuildFile section */
 		B676363625C106D800670991 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B676363525C106D800670991 /* AppDelegate.swift */; };
 		B676363825C106D800670991 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B676363725C106D800670991 /* SceneDelegate.swift */; };
-		B676363A25C106D800670991 /* ProfileDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B676363925C106D800670991 /* ProfileDetailsView.swift */; };
+		B676363A25C106D800670991 /* PetProfileDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = B676363925C106D800670991 /* PetProfileDetails.swift */; };
 		B676363C25C106DD00670991 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B676363B25C106DD00670991 /* Assets.xcassets */; };
 		B676363F25C106DD00670991 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B676363E25C106DD00670991 /* Preview Assets.xcassets */; };
 		B676364225C106DD00670991 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B676364025C106DD00670991 /* LaunchScreen.storyboard */; };
-		B676364A25CB803C00670991 /* TitleAndValueTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B676364925CB803C00670991 /* TitleAndValueTextView.swift */; };
-		B676364D25D4AFF500670991 /* ProfileRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B676364C25D4AFF500670991 /* ProfileRowView.swift */; };
-		B676365025D4B11100670991 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = B676364F25D4B11100670991 /* Player.swift */; };
-		B676365225D4B36A00670991 /* ProfileListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B676365125D4B36A00670991 /* ProfileListView.swift */; };
+		B676364A25CB803C00670991 /* TitleAndValueText.swift in Sources */ = {isa = PBXBuildFile; fileRef = B676364925CB803C00670991 /* TitleAndValueText.swift */; };
+		B676364D25D4AFF500670991 /* PetProfileCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B676364C25D4AFF500670991 /* PetProfileCell.swift */; };
+		B676365025D4B11100670991 /* PetPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B676364F25D4B11100670991 /* PetPlayer.swift */; };
+		B676365225D4B36A00670991 /* PetProfileListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B676365125D4B36A00670991 /* PetProfileListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B676363225C106D800670991 /* SwiftUI-Player-Profile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-Player-Profile.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B676363525C106D800670991 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B676363725C106D800670991 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B676363925C106D800670991 /* ProfileDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileDetailsView.swift; sourceTree = "<group>"; };
+		B676363925C106D800670991 /* PetProfileDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetProfileDetails.swift; sourceTree = "<group>"; };
 		B676363B25C106DD00670991 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B676363E25C106DD00670991 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B676364125C106DD00670991 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B676364325C106DD00670991 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B676364925CB803C00670991 /* TitleAndValueTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleAndValueTextView.swift; sourceTree = "<group>"; };
-		B676364C25D4AFF500670991 /* ProfileRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileRowView.swift; sourceTree = "<group>"; };
-		B676364F25D4B11100670991 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
-		B676365125D4B36A00670991 /* ProfileListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileListView.swift; sourceTree = "<group>"; };
+		B676364925CB803C00670991 /* TitleAndValueText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleAndValueText.swift; sourceTree = "<group>"; };
+		B676364C25D4AFF500670991 /* PetProfileCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetProfileCell.swift; sourceTree = "<group>"; };
+		B676364F25D4B11100670991 /* PetPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetPlayer.swift; sourceTree = "<group>"; };
+		B676365125D4B36A00670991 /* PetProfileListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetProfileListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,10 +79,10 @@
 		B676364B25D4AFC900670991 /* Profile */ = {
 			isa = PBXGroup;
 			children = (
-				B676364925CB803C00670991 /* TitleAndValueTextView.swift */,
-				B676363925C106D800670991 /* ProfileDetailsView.swift */,
-				B676364C25D4AFF500670991 /* ProfileRowView.swift */,
-				B676365125D4B36A00670991 /* ProfileListView.swift */,
+				B676364925CB803C00670991 /* TitleAndValueText.swift */,
+				B676363925C106D800670991 /* PetProfileDetails.swift */,
+				B676364C25D4AFF500670991 /* PetProfileCell.swift */,
+				B676365125D4B36A00670991 /* PetProfileListView.swift */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -90,7 +90,7 @@
 		B676364E25D4B0F400670991 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				B676364F25D4B11100670991 /* Player.swift */,
+				B676364F25D4B11100670991 /* PetPlayer.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -166,13 +166,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B676364D25D4AFF500670991 /* ProfileRowView.swift in Sources */,
+				B676364D25D4AFF500670991 /* PetProfileCell.swift in Sources */,
 				B676363625C106D800670991 /* AppDelegate.swift in Sources */,
-				B676364A25CB803C00670991 /* TitleAndValueTextView.swift in Sources */,
+				B676364A25CB803C00670991 /* TitleAndValueText.swift in Sources */,
 				B676363825C106D800670991 /* SceneDelegate.swift in Sources */,
-				B676365025D4B11100670991 /* Player.swift in Sources */,
-				B676365225D4B36A00670991 /* ProfileListView.swift in Sources */,
-				B676363A25C106D800670991 /* ProfileDetailsView.swift in Sources */,
+				B676365025D4B11100670991 /* PetPlayer.swift in Sources */,
+				B676365225D4B36A00670991 /* PetProfileListView.swift in Sources */,
+				B676363A25C106D800670991 /* PetProfileDetails.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -313,6 +313,7 @@
 				DEVELOPMENT_TEAM = L88649U8C7;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -333,6 +334,7 @@
 				DEVELOPMENT_TEAM = L88649U8C7;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
